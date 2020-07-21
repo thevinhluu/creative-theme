@@ -1,0 +1,33 @@
+.banner {
+  height: 100vh;
+  min-height: 640px;
+  padding-top: 72px;
+  padding-bottom: 0;
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%),
+    url(../images/bg-masthead.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+
+  &__content-title {
+    font-family: "Merriweather Sans";
+    font-size: 56px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .banner {
+    &__content-title {
+      font-size: 48px;
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .banner {
+    &__content-title {
+      font-size: 36px;
+    }
+  }
+}

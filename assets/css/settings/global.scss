@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Merriweather Sans",
+}
+
+ul,
+li {
+  list-style: none;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+.text-white {
+  color: #fff !important;
+}
+
+.text-white-75 {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.font-weight-bold {
+  font-weight: 700 !important;
+}
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+hr.divider {
+  max-width: 52px;
+  border-width: 3.1875px;
+  border-color: #f4623a;
+  margin: auto;
+}
+
+hr.light {
+  border-color: #fff;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #f4623a;
+  border-color: #f4623a;
+}
+
+.btn-xl {
+  padding: 1.25rem 2.25rem;
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 10rem;
+  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #f24516;
+  border-color: #ee3e0d;
+}
+
+.bg-primary {
+  background-color: #f4623a !important;
+}
+
+.text-primary {
+  color: #f4623a !important;
+}

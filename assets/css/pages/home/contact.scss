@@ -1,0 +1,19 @@
+.contact {
+  padding: 128px 0;
+
+  a {
+    color: #f4623a;
+    text-decoration: none;
+    background-color: transparent;
+    transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+
+    &:hover {
+      color: #d6370c;
+      text-decoration: underline;
+    }
+  }
+}
