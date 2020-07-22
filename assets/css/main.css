@@ -261,6 +261,7 @@ hr.light {
 	text-decoration: none;
 	background-color: transparent;
 	position: relative;
+	display: block;
 }
 .portfolio__item-box-caption {
 	display: flex;

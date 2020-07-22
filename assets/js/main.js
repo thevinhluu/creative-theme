@@ -4,3 +4,7 @@ const menu = document.querySelector('.header__menu-list');
 btnToggle.addEventListener('click', function() {
 	menu.classList.toggle('header__menu-list-show-menu');
 });
+
+$('[data-fancybox="images"]').fancybox({
+	loop : true
+});
